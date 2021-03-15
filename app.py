@@ -60,7 +60,7 @@ def handle_message(event):
         r = '我是機器人'
     elif '訂位' in msg:
         r = '你想訂位，是嗎'
-    elif '給我貼圖'
+    else '給我貼圖'
     
     line_bot_api.reply_message(
         event.reply_token,
